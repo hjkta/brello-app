@@ -12,6 +12,7 @@
     "start": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint -c eslint.config.mjs src --fix",
+    "check": "eslint -c eslint.config.mjs src",
     "lint-staged": "lint-staged",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
